@@ -3,90 +3,124 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>阿部渉のポートフォリオサイト</title>
+  <title>阿部渉のポートフォリオ</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <div class="header-container">
-      <div class="logo">
-        <a href="#">阿部渉</a>
+  <div id="header">
+    <div class="header-inner">
+      <div class="site-title">阿部渉</div>
+      <div class="menu">
+        <a href="#about">自己紹介</a>
+        <a href="#skills">できること</a>
+        <a href="#works">作品</a>
+        <a href="#contact">お問い合わせ</a>
       </div>
-      <nav class="nav-menu">
-        <ul>
-          <li><a href="#about">自己紹介</a></li>
-          <li><a href="#skills">できること</a></li>
-          <li><a href="#works">作品</a></li>
-          <li><a href="#contact">お問い合わせ</a></li>
-        </ul>
-      </nav>
     </div>
-  </header>
+  </div>
 
-  <main>
+  <div id="main">
 
-    <section class="top">
-      <div class="top-content">
-        <p>初めまして！</p>
-        <h1>阿部 渉<span>（Wataru Abe）</span></h1>
-        <p class="top-text">
-          Web制作・デザイン・ライティングを勉強しています。<br>
-          自分でコードを書いてサイトを作ったり、文章を書くのが好きです。
-        </p>
-        <div class="buttons">
-          <a href="#works" class="btn">作品を見る</a>
-          <a href="#contact" class="btn-contact">お問い合わせ</a>
-        </div>
+    <div class="main-visual">
+      <p>初めまして！</p>
+      <h1>阿部 渉（Wataru Abe）</h1>
+      <p class="sub-text">
+        Web制作・デザイン・ライティングを勉強しています。<br>
+        これまで広く学んだ知識を一回の実践的な形としてまとめたポートフォリオサイトです。
+      </p>
+      <div class="btn-area">
+        <a href="#works" class="btn1">作品を見る</a>
+        <a href="#contact" class="btn2">お問い合わせ</a>
       </div>
-    </section>
+    </div>
 
-    <section id="about" class="about">
+    <div id="about" class="content-box">
       <h2>自己紹介</h2>
-      <div class="about-box">
-        <p>
-          現在は専門学校でITを学んでおり、日々パソコンを使った学習や制作活動に取り組んでいます。文章を書くことや、自分の内面や体験を言語化して誰かに伝えることに興味があります。
-        </p>
-        <div class="profile-info">
-          <p><strong>活動開始：</strong>2023年〜</p>
-          <p><strong>対応形式：</strong>リモート / オンライン打ち合わせ</p>
-          <p><strong>稼働目安：</strong>平日 週4〜5時間程度</p>
-        </div>
+      <p>
+        現在は専門学校でITを学んでおり、日々パソコンを使った学習や制作活動に取り組んでいます。文章を書くことや、自分の内面や体験を言語化して誰かに伝えることに興味があります。
+      </p>
+      <div class="profile-list">
+        <p><strong>活動開始：</strong>2023年〜</p>
+        <p><strong>対応形式：</strong>リモート / オンライン打ち合わせ</p>
+        <p><strong>稼働目安：</strong>平日 週4〜5時間程度</p>
       </div>
-    </section>
+    </div>
 
-    <section id="skills" class="skills">
+    <div id="skills" class="content-box">
       <h2>できること・学習中のこと</h2>
-      <div class="skill-list">
+      <div class="card-wrapper">
 
-        <div class="skill-item">
+        <div class="card web-box">
           <h3>Web制作・コーディング</h3>
           <p>HTML / CSS / JavaScript を使ったサイト構築や、レスポンシブ対応（スマホ対応）を行っています。</p>
           <p class="tools">使用技術：HTML, CSS, JavaScript</p>
         </div>
 
-        <div class="skill-item">
+        <div class="card design-box">
           <h3>Webデザイン</h3>
           <p>Figmaを使用したWebサイトのワイヤーフレーム作成やデザインを行っています。</p>
           <p class="tools">使用ツール：Figma</p>
         </div>
 
-        <div class="skill-item">
+        <div class="card writing-box">
           <h3>ライティング</h3>
           <p>ブログ記事の執筆や、自分の体験・思考をまとめた文章作成を得意としています。</p>
           <p class="tools">担当領域：記事執筆・構成・校正</p>
         </div>
 
       </div>
-    </section>
+    </div>
 
-    <section id="works" class="works">
+    <div id="works" class="content-box">
       <h2>作品・制作物</h2>
       
-      <div class="work-list">
+      <div class="card-wrapper">
 
-        <div class="work-card">
-          <div class="work-img">Web制作</div>
-          <div class="work-info">
+        <div class="work-box">
+          <div class="img-area web-bg">Web制作</div>
+          <div class="box-text">
             <h3>ポートフォリオサイト（本サイト）</h3>
             <p>自分の実績やスキルをまとめるために作成した1ページ完結型のポートフォリオサイトです。</p>
+            <p class="tag">HTML / CSS / JavaScript</p>
+          </div>
+        </div>
+
+        <div class="work-box">
+          <div class="img-area design-bg">デザイン</div>
+          <div class="box-text">
+            <h3>架空カフェのLPデザイン</h3>
+            <p>Figmaを使って、落ち着いた雰囲気のカフェをイメージしたランディングページを作成しました。</p>
+            <p class="tag">Figma</p>
+          </div>
+        </div>
+
+        <div class="work-box">
+          <div class="img-area writing-bg">ライティング</div>
+          <div class="box-text">
+            <h3>学習記録ブログ記事</h3>
+            <p>専門学校での学びやプログラミング学習の過程をわかりやすくまとめたWeb記事です。</p>
+            <p class="tag">ライティング</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="contact" class="content-box">
+      <h2>お問い合わせ</h2>
+      <p>お仕事のご相談やお問い合わせは、下記のメールアドレスよりお気軽にご連絡ください。</p>
+      <div class="mail-area">
+        <a href="mailto:ooi2572017@stu.o-hara.ac.jp" class="mail-link">メールを送る（ooi2572017@stu.o-hara.ac.jp）</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="footer">
+    <p>&copy; 2026 Wataru Abe</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
