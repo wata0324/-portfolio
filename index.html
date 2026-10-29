@@ -1,282 +1,92 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>阿部渉 | Web制作・デザイン・ライティング</title>
-<meta name="description" content="Web制作、デザイン、ライティングを手がけるフリーランスのポートフォリオです。">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>阿部渉のポートフォリオサイト</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a href="#top" class="logo">阿部渉</a>
-    <button class="nav-toggle" id="navToggle" aria-label="メニューを開く" aria-expanded="false">
-      <span></span><span></span><span></span>
-    </button>
-    <nav class="site-nav" id="siteNav">
-      <a href="#skills">分野</a>
-      <a href="#works">作品</a>
-      <a href="#flow">ご依頼の流れ</a>
-      <a href="#pricing">料金</a>
-      <a href="#contact" class="nav-cta">お問い合わせ</a>
-    </nav>
-  </div>
-</header>
-
-<main id="top">
-
-  <!-- ============ HERO ============ -->
-  <section class="hero">
-    <div class="wrap hero-inner">
-      <p class="hero-lead">はじめまして、</p>
-      <h1 class="hero-name">阿部渉<span class="hero-name-sub">Aya Mori</span></h1>
-      <p class="hero-copy">
-        サイトを組み、見た目を整え、言葉を書く。<br class="br-pc">
-        3つの工程をひとりで担当できるのが強みです。
-      </p>
-      <ul class="field-tags">
-        <li class="field-tag field-web">Web制作・コーディング</li>
-        <li class="field-tag field-design">Webデザイン</li>
-        <li class="field-tag field-writing">ライティング</li>
-      </ul>
-      <div class="hero-actions">
-        <a href="#works" class="btn btn-primary">作品を見る</a>
-        <a href="#contact" class="btn btn-ghost">お仕事のご相談</a>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <a href="#">阿部渉</a>
       </div>
+      <nav class="nav-menu">
+        <ul>
+          <li><a href="#about">自己紹介</a></li>
+          <li><a href="#skills">できること</a></li>
+          <li><a href="#works">作品</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <!-- ============ ABOUT ============ -->
-  <section class="about">
-    <div class="wrap about-inner">
-      <h2 class="section-heading">自己紹介</h2>
-      <p class="about-text">
-        現在は専門学校でITを学んでおり、日々パソコンを使った学習や制作活動に取り組んでいます。文章を書くことや、自分の内面や体験を言語化して誰かに伝えることに興味があり、今回応募させていただきました。
-      
-      </p>
-      <dl class="about-facts">
-        <div class="fact">
-          <dt>活動開始</dt>
-          <dd>2023年〜</dd>
-        </div>
-        <div class="fact">
-          <dt>対応可能な形式</dt>
-          <dd>リモート / オンライン打ち合わせ</dd>
-        </div>
-        <div class="fact">
-          <dt>稼働目安</dt>
-          <dd>平日昼間 週4〜5時間</dd>
-        </div>
-      </dl>
-    </div>
-  </section>
+  <main>
 
-  <!-- ============ SKILLS ============ -->
-  <section class="skills" id="skills">
-    <div class="wrap">
-      <h2 class="section-heading">対応できること</h2>
-      <div class="skill-grid">
+    <section class="top">
+      <div class="top-content">
+        <p>初めまして！</p>
+        <h1>阿部 渉<span>（Wataru Abe）</span></h1>
+        <p class="top-text">
+          Web制作・デザイン・ライティングを勉強しています。<br>
+          自分でコードを書いてサイトを作ったり、文章を書くのが好きです。
+        </p>
+        <div class="buttons">
+          <a href="#works" class="btn">作品を見る</a>
+          <a href="#contact" class="btn-contact">お問い合わせ</a>
+        </div>
+      </div>
+    </section>
 
-        <article class="skill-card skill-web">
+    <section id="about" class="about">
+      <h2>自己紹介</h2>
+      <div class="about-box">
+        <p>
+          現在は専門学校でITを学んでおり、日々パソコンを使った学習や制作活動に取り組んでいます。文章を書くことや、自分の内面や体験を言語化して誰かに伝えることに興味があります。
+        </p>
+        <div class="profile-info">
+          <p><strong>活動開始：</strong>2023年〜</p>
+          <p><strong>対応形式：</strong>リモート / オンライン打ち合わせ</p>
+          <p><strong>稼働目安：</strong>平日 週4〜5時間程度</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>できること・学習中のこと</h2>
+      <div class="skill-list">
+
+        <div class="skill-item">
           <h3>Web制作・コーディング</h3>
-          <p>HTML / CSS / JavaScript を用いたコーディング、既存サイトの修正、レスポンシブ対応、
-             WordPressのカスタマイズなど。</p>
-          <ul class="skill-tools">
-            <li>HTML / CSS</li>
-            <li>JavaScript</li>
-            <li>WordPress</li>
-            <li>レスポンシブ対応</li>
-          </ul>
-        </article>
+          <p>HTML / CSS / JavaScript を使ったサイト構築や、レスポンシブ対応（スマホ対応）を行っています。</p>
+          <p class="tools">使用技術：HTML, CSS, JavaScript</p>
+        </div>
 
-        <article class="skill-card skill-design">
+        <div class="skill-item">
           <h3>Webデザイン</h3>
-          <p>LP・コーポレートサイト・バナーのデザイン。Figmaでのワイヤーフレーム作成から
-             デザインカンプ納品まで対応。</p>
-          <ul class="skill-tools">
-            <li>Figma</li>
-            <li>LPデザイン</li>
-            <li>バナー制作</li>
-            <li>ワイヤーフレーム</li>
-          </ul>
-        </article>
+          <p>Figmaを使用したWebサイトのワイヤーフレーム作成やデザインを行っています。</p>
+          <p class="tools">使用ツール：Figma</p>
+        </div>
 
-        <article class="skill-card skill-writing">
+        <div class="skill-item">
           <h3>ライティング</h3>
-          <p>SEOを意識したブログ記事、サービス紹介文、LPのコピーライティングなど。
-             取材・構成案作成から入稿まで対応可能です。</p>
-          <ul class="skill-tools">
-            <li>SEO記事</li>
-            <li>LPコピー</li>
-            <li>取材・構成</li>
-            <li>校正・推敲</li>
-          </ul>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ WORKS ============ -->
-  <section class="works" id="works">
-    <div class="wrap">
-      <h2 class="section-heading">作品・実績</h2>
-      <p class="works-note">
-        ※ ここには実際に手がけた案件を掲載してください。守秘義務がある案件は、
-        クライアント名を伏せたうえで「概要・担当範囲・工夫した点」を書くと信頼されやすくなります。
-        実績がまだ無い場合は、練習用に自主制作したサイトや模写案件を1〜2件載せるだけでも効果があります。
-      </p>
-
-      <div class="filter-bar" role="tablist" aria-label="作品の絞り込み">
-        <button class="filter-btn is-active" data-filter="all">すべて</button>
-        <button class="filter-btn" data-filter="web">Web制作</button>
-        <button class="filter-btn" data-filter="design">デザイン</button>
-        <button class="filter-btn" data-filter="writing">ライティング</button>
-      </div>
-
-      <div class="work-grid">
-
-        <article class="work-card" data-category="web">
-          <div class="work-thumb work-thumb-web">Web制作</div>
-          <div class="work-body">
-            <h3>案件名を入力(例:美容室様コーポレートサイト)</h3>
-            <p>担当範囲:コーディング一式 / 使用技術:HTML, CSS, JavaScript / 制作期間:2週間</p>
-          </div>
-        </article>
-
-        <article class="work-card" data-category="design">
-          <div class="work-thumb work-thumb-design">Design</div>
-          <div class="work-body">
-            <h3>案件名を入力(例:飲食店様LPデザイン)</h3>
-            <p>担当範囲:ワイヤーフレーム〜デザインカンプ / 使用ツール:Figma / 制作期間:1週間</p>
-          </div>
-        </article>
-
-        <article class="work-card" data-category="writing">
-          <div class="work-thumb work-thumb-writing">Writing</div>
-          <div class="work-body">
-            <h3>案件名を入力(例:SEOブログ記事 全10本)</h3>
-            <p>担当範囲:構成案作成〜執筆〜入稿 / 文字数:1本あたり3,000字 / ジャンル:美容</p>
-          </div>
-        </article>
-
-        <article class="work-card" data-category="web">
-          <div class="work-thumb work-thumb-web">Web制作</div>
-          <div class="work-body">
-            <h3>案件名を入力</h3>
-            <p>担当範囲を入力してください</p>
-          </div>
-        </article>
-
-        <article class="work-card" data-category="design">
-          <div class="work-thumb work-thumb-design">Design</div>
-          <div class="work-body">
-            <h3>案件名を入力</h3>
-            <p>担当範囲を入力してください</p>
-          </div>
-        </article>
-
-        <article class="work-card" data-category="writing">
-          <div class="work-thumb work-thumb-writing">Writing</div>
-          <div class="work-body">
-            <h3>案件名を入力</h3>
-            <p>担当範囲を入力してください</p>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ============ FLOW ============ -->
-  <section class="flow" id="flow">
-    <div class="wrap">
-      <h2 class="section-heading">ご依頼の流れ</h2>
-      <ol class="flow-list">
-        <li>
-          <span class="flow-num">01</span>
-          <div>
-            <h3>お問い合わせ</h3>
-            <p>フォームまたはクラウドワークスのメッセージから、内容・ご予算・希望納期をご連絡ください。</p>
-          </div>
-        </li>
-        <li>
-          <span class="flow-num">02</span>
-          <div>
-            <h3>ヒアリング・お見積もり</h3>
-            <p>詳細をお伺いしたうえで、作業範囲とお見積もりをご提示します。</p>
-          </div>
-        </li>
-        <li>
-          <span class="flow-num">03</span>
-          <div>
-            <h3>制作・執筆</h3>
-            <p>進捗はこまめに共有し、必要に応じて途中経過をご確認いただきます。</p>
-          </div>
-        </li>
-        <li>
-          <span class="flow-num">04</span>
-          <div>
-            <h3>納品・修正対応</h3>
-            <p>納品後、内容のご確認と軽微な修正対応を行います。</p>
-          </div>
-        </li>
-      </ol>
-    </div>
-  </section>
-
-  <!-- ============ PRICING ============ -->
-  <section class="pricing" id="pricing">
-    <div class="wrap">
-      <h2 class="section-heading">料金の目安</h2>
-      <p class="pricing-note">内容や分量によって変動します。まずはお気軽にご相談ください。</p>
-      <div class="pricing-grid">
-        <div class="pricing-card">
-          <h3>コーディング</h3>
-          <p class="pricing-amount">¥15,000〜</p>
-          <p class="pricing-desc">デザインカンプからのコーディング1ページあたり</p>
+          <p>ブログ記事の執筆や、自分の体験・思考をまとめた文章作成を得意としています。</p>
+          <p class="tools">担当領域：記事執筆・構成・校正</p>
         </div>
-        <div class="pricing-card">
-          <h3>Webデザイン</h3>
-          <p class="pricing-amount">¥20,000〜</p>
-          <p class="pricing-desc">LP・バナー等、内容に応じてお見積もり</p>
-        </div>
-        <div class="pricing-card">
-          <h3>記事執筆</h3>
-          <p class="pricing-amount">¥3円〜/字</p>
-          <p class="pricing-desc">ジャンル・取材有無により変動します</p>
-        </div>
+
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ============ CONTACT ============ -->
-  <section class="contact" id="contact">
-    <div class="wrap contact-inner">
-      <h2 class="section-heading">お問い合わせ</h2>
-      <p class="contact-text">
-        お仕事のご相談・お見積もりのご依頼は、下記よりお気軽にご連絡ください。
-      </p>
-      <div class="contact-actions">
-        <a href="mailto:your-email@example.com" class="btn btn-primary">メールで相談する</a>
-        <a href="https://crowdworks.jp/" class="btn btn-ghost" target="_blank" rel="noopener">クラウドワークスのプロフィール</a>
-      </div>
-    </div>
-  </section>
+    <section id="works" class="works">
+      <h2>作品・制作物</h2>
+      
+      <div class="work-list">
 
-</main>
-
-<footer class="site-footer">
-  <div class="wrap">
-    <p>&copy; 2026 Aya Mori</p>
-  </div>
-</footer>
-
-<script src="script.js"></script>
-</body>
-</html>
+        <div class="work-card">
+          <div class="work-img">Web制作</div>
+          <div class="work-info">
+            <h3>ポートフォリオサイト（本サイト）</h3>
+            <p>自分の実績やスキルをまとめるために作成した1ページ完結型のポートフォリオサイトです。</p>
