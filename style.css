@@ -1,9 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  color: #333333;
-  background-color: #f9f9f9;
   font-family: sans-serif;
+  color: #333333;
+  background-color: #f4f6f8;
   line-height: 1.6;
 }
 
@@ -14,10 +14,11 @@ a {
 
 #header {
   background-color: #ffffff;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #e0e0e0;
   position: sticky;
   top: 0;
   z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .header-inner {
@@ -35,9 +36,14 @@ a {
   font-weight: bold;
 }
 
+.menu {
+  display: flex;
+  gap: 20px;
+}
+
 .menu a {
-  margin-left: 15px;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .menu a:hover {
@@ -52,29 +58,34 @@ a {
 
 .main-visual {
   text-align: center;
-  padding: 60px 0;
+  padding: 80px 20px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
 }
 
 .main-visual h1 {
-  font-size: 28px;
-  margin: 10px 0;
+  font-size: 30px;
+  margin: 15px 0;
 }
 
 .sub-text {
   color: #666666;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
 }
 
 .btn-area {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .btn1, .btn2 {
-  padding: 10px 20px;
-  border-radius: 4px;
-  font-size: 14px;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .btn1 {
@@ -83,53 +94,66 @@ a {
 }
 
 .btn2 {
-  border: 1px solid #333333;
+  background-color: #ffffff;
+  border: 2px solid #333333;
   color: #333333;
 }
 
 .content-box {
-  padding: 50px 0;
-  border-bottom: 1px solid #dddddd;
+  padding: 40px 0;
 }
 
 h2 {
   font-size: 22px;
   border-left: 5px solid #333333;
-  padding-left: 10px;
-  margin-bottom: 20px;
+  padding-left: 12px;
+  margin-bottom: 25px;
+}
+
+.about-text {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
 }
 
 .profile-list {
   background-color: #ffffff;
-  padding: 15px;
+  padding: 20px;
   margin-top: 15px;
-  border: 1px solid #eeeeee;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
 }
 
 .card-wrapper {
   display: flex;
-  gap: 15px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
 .card {
   flex: 1;
-  min-width: 250px;
+  min-width: 260px;
   background-color: #ffffff;
-  padding: 15px;
-  border: 1px solid #dddddd;
-  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
 }
 
-/* 3分野のテーマカラー設定 */
+.card h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+/* 3分野のテーマカラー指定 */
 .web-box {
-  border-top: 4px solid #3B6E64;
+  border-top: 5px solid #3B6E64;
 }
 .design-box {
-  border-top: 4px solid #C98A2C;
+  border-top: 5px solid #C98A2C;
 }
 .writing-box {
-  border-top: 4px solid #A6432E;
+  border-top: 5px solid #A6432E;
 }
 
 .web-bg {
@@ -145,38 +169,50 @@ h2 {
 .tools {
   font-size: 13px;
   color: #666666;
+  margin-bottom: 0;
 }
 
 .work-box {
-  width: 31%;
-  min-width: 250px;
+  width: calc(33.333% - 14px);
+  min-width: 260px;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
-  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
   overflow: hidden;
 }
 
 .img-area {
-  height: 100px;
+  height: 120px;
   color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
+  font-size: 18px;
 }
 
 .box-text {
-  padding: 15px;
+  padding: 20px;
 }
 
 .box-text h3 {
   font-size: 16px;
   margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .tag {
   font-size: 12px;
   color: #666666;
+  margin-bottom: 0;
+}
+
+.contact-box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
 }
 
 .mail-area {
@@ -185,23 +221,24 @@ h2 {
 
 .mail-link {
   display: inline-block;
-  background-color: #333333;
+  background-color: #3B6E64;
   color: #ffffff;
-  padding: 10px 20px;
-  border-radius: 4px;
+  padding: 12px 28px;
+  border-radius: 6px;
+  font-weight: bold;
 }
 
 #footer {
   text-align: center;
-  padding: 20px;
-  font-size: 12px;
+  padding: 30px;
+  font-size: 13px;
   color: #888888;
 }
 
 @media (max-width: 768px) {
   .header-inner {
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
   
   .card-wrapper {
